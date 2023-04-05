@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meiatara</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTAWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="LogoM.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <!-- 
+    - HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="LogoMeia.svg" alt="logo" />
+        </a>
+
+        <button class="menu-toggle-btn" data-nav-toggle-btn>
+          <i class="fa-solid fa-bars open" style="color: #707070"></i>
+          <i class="fa-solid fa-xmark close" style="color: #707070"></i>
+        </button>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+
+            <li>
+              <a href="about.html" class="navbar-link" data-navbar-link
+                >About Me</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="portofolio.html"
+                class="navbar-link active"
+                data-navbar-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li>
+              <a href="artikel.html" class="navbar-link" data-navbar-link
+                >Article</a
+              >
+            </li>
+
+            <li>
+              <a href="contact.html" class="navbar-link" data-navbar-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio-container bd-grid">
+          <div class="portfolio__img">
+            <img src="images/UI1.png" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://rzkyapriil.github.io/travelToday/"
+                class="portfolio__link-name"
+                >Travel Agency Website</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="images/UI2.png" alt="" />
+
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name"
+                >UI Greenpeace Website Design</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="images/UI3.png" alt="" />
+
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name">UI Mobile Banking App</a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="images/vec1.png" alt="" />
+
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name">Vector</a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="images/vec2.png" alt="" />
+
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name">Vector</a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="images/Pod.png" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://anchor.fm/handayani-meiatara/episodes/Masa-Depan-e13h27m"
+                class="portfolio__link-name"
+                >Podcast</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer-container bd-grid">
+        <div class="footer-data">
+          <a href="#" class="logo">
+            <img src="LogoMeia.svg" alt="logo" />
+          </a>
+          <p class="footer-text">
+            I am a Content Creator and Front-end Engineering.
+          </p>
+        </div>
+
+        <div class="footer-data">
+          <h2 class="footer-title">EXPLORE</h2>
+          <ul>
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li>
+              <a href="portfolio.html" class="footer-link">Portfolio</a>
+            </li>
+            <li><a href="artikel.html" class="footer-link">Article</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-data">
+          <h2 class="footer-title">FOLLOW</h2>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/handayani-meiatara-771655208/"
+              class="footer-social-link"
+              ><i class="fa-brands fa-linkedin" style="color: #e24dca"></i
+            ></a>
+            <a href="https://github.com/Meiatara" class="footer-social-link"
+              ><i class="fa-brands fa-github" style="color: #e24dca"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/taraaa__ss/?hl=id"
+              class="footer-social-link"
+              ><i class="fa-brands fa-instagram" style="color: #e24dca"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023 All Rights Reserved by
+          <a href="index.html" class="copyright-link">Meiatara</a>
+        </p>
+      </div>
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- 
+    - custom js link
+  -->
+    <script src="script.js"></script>
+  </body>
+</html>
